@@ -1,7 +1,6 @@
 FROM alpine
 
 RUN apk add --no-cache \
-        bash \
         tinyproxy
 
 COPY tinyproxy.conf /etc/tinyproxy/tinyproxy.conf
